@@ -13,7 +13,10 @@ body {
     text-decoration: none;
     color: #2196f3;
 }
-
+.header {
+    width: 1600px;
+    height: 80px;
+}
 .studio-black {
     color: #000000;
 }
