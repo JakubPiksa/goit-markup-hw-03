@@ -36,12 +36,21 @@ body {
 .header {
     width: 1600px;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .studio-black {
     color: #000000;
 }
 .studio-white {
     color: #ffffff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-list a {
