@@ -13,10 +13,17 @@ ul {
     border: 0px;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: black;
+    width: 1600px;
 }
 body li {
     list-style: none;
@@ -98,6 +105,13 @@ body li {
 .footer-wrapper {
     background-color: #2f303a;
     color: #ffffff;
+    width: 1600px;
+    height: 252px;
+    padding: 60px 0px;
+}
+.footer-content {
+    padding: 0px 215px;
+    display: block;
 }
 
 .footer-wrapper address {
@@ -107,11 +121,15 @@ body li {
     font-size: 14px;
     line-height: 1.17;
     color: #ffffff;
+    display: block;
 }
 
 .address a {
     color: #ffffff60;
+    display: block;
+    text-decoration: none;
 }
+
 .address a:hover,
 .address a:focus {
     color: #2196f3;
@@ -166,6 +184,7 @@ body li {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     display: flex;
+    flex-direction: column;
     background-color: #2f303a;
     width: 1600;
     height: 600;
@@ -174,7 +193,7 @@ body li {
     padding: 106px 252px;
 }
 .heading h1 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #ffffff;
     font-size: 44px;
     line-height: 1.36;
@@ -182,6 +201,8 @@ body li {
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
+    width: 696px;
+    height: 120px;
 }
 .service-button {
     font-weight: 700;
@@ -202,12 +223,25 @@ body li {
     cursor: pointer;
 }
 
+.text-list {
+    display: flex;
+    gap: 30px;
+    height: 101px;
+    width: 1170px;
+    text-align: center;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .text-list h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .text-list p {
@@ -216,6 +250,7 @@ body li {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: justify;
 }
 
 .what-we-do {
@@ -224,6 +259,24 @@ body li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+
+.what-we-do-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
+}
+
+.team {
+    background-color: #f5f4fa;
+    padding: 94px 215px;
 }
 
 .team h2 {
@@ -232,6 +285,32 @@ body li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.team figure {
+    background-color: #ffffff;
+    width: 270px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    display: block;
+}
+
+.team figcaption {
+    padding-top: 30px 0px;
+    text-align: center;
+    display: block;
 }
 
 .team-list-member-name {
@@ -240,6 +319,8 @@ body li {
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: #212121;
+    display: block;
+    padding-top: 30px;
 }
 
 .team-list-member-role {
@@ -248,4 +329,7 @@ body li {
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: block;
 }
