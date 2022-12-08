@@ -110,7 +110,7 @@ body li {
     padding: 60px 0px;
 }
 .footer-content {
-    padding: 0px 215px;
+    margin: 0px 215px;
     display: block;
 }
 
@@ -124,10 +124,15 @@ body li {
     display: block;
 }
 
+.address {
+    padding-top: 20px;
+}
+
 .address a {
     color: #ffffff60;
     display: block;
     text-decoration: none;
+    padding-top: 9px;
 }
 
 .address a:hover,
@@ -139,6 +144,15 @@ body li {
 }
 /* Main Portfolio */
 
+.category-buttons ul {
+    display: flex;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-left: 510px;
+    margin-right: 518px;
+}
 .category-buttons li button {
     font-style: normal;
     font-weight: 500;
@@ -159,6 +173,18 @@ body li {
     cursor: pointer;
 }
 
+.portfolio-projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.portfolio-projects figcaption {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
 .portfolio-name {
     font-size: 18px;
     font-weight: 700;
