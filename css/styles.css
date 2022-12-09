@@ -50,7 +50,7 @@ body li {
     align-items: center;
     justify-content: space-between;
     padding: 24px 0px 25px 0px;
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #ececec;
 }
 .studio-black {
     color: #000000;
@@ -178,19 +178,22 @@ body li {
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
 }
 
 .portfolio-projects figcaption {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;
+    display: block;
 }
 .portfolio-name {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: left;
 }
 
 .portfolio-category {
@@ -199,6 +202,7 @@ body li {
     line-height: 1.875;
     letter-spacing: 0.03em;
     text-align: left;
+    display: block;
 }
 
 /* main-index*/
