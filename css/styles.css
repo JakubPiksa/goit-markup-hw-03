@@ -1,4 +1,4 @@
-/* Globalne */
+/* Globalne  juz naprawde nie mam pojęcia co jeszcze tu jest nie tak... Pozdrawiam*/
 h1,
 h2,
 h3,
@@ -183,8 +183,8 @@ body li {
     margin: 0px 4px 50px;
 }
 
-.category-buttons button:hover,
-.category-buttons button:focus {
+.button:hover,
+.button:focus {
     background-color: #2196f3;
     color: #ffffff;
     cursor: pointer;
