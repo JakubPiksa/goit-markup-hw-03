@@ -165,7 +165,7 @@ body li {
     justify-content: center;
 }
 
-.category-buttons li button {
+.button {
     font-weight: 500;
     background-color: #f5f4fa;
     font-size: 16px;
@@ -190,7 +190,7 @@ body li {
     cursor: pointer;
 }
 
-.portfolio-projects ul {
+.portfolio-projects {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
