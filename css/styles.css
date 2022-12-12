@@ -127,23 +127,27 @@ body li {
 }
 
 .footer-wrapper address {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #ffffff;
     display: block;
 }
 
 .address {
     padding-top: 20px;
 }
-
+.address span {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
+}
 .address a {
     color: #ffffff60;
-
     text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
     padding-top: 9px;
 }
 
