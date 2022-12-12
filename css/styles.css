@@ -46,13 +46,6 @@ body li {
     text-decoration: none;
     color: #2196f3;
 }
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0px 25px 0px;
-    border-bottom: 1px solid #ececec;
-}
 .studio-black {
     color: #000000;
 }
@@ -60,16 +53,38 @@ body li {
     color: #ffffff;
 }
 
-.top-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-wrapper {
+    background-color: #ffffff;
+    padding: 24px 0px 25px 0px;
+    border-bottom: 1px solid #ececec;
 }
+
+.header-wrapper > .container {
+    padding: 0 27px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 93px;
+}
+
 .nav-list {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 93px;
+    align-items: center;
+    gap: 46px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
 .nav-list a {
@@ -116,7 +131,7 @@ body li {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.71;
     color: #ffffff;
     display: block;
 }
@@ -127,7 +142,7 @@ body li {
 
 .address a {
     color: #ffffff60;
-    display: block;
+
     text-decoration: none;
     padding-top: 9px;
 }
@@ -141,14 +156,11 @@ body li {
 }
 /* Main Portfolio */
 
-.category-buttons ul {
-    text-align: center;
-}
-.category-buttons li {
-    display: inline-block;
-    gap: 8px;
+.category-buttons {
+    display: flex;
     justify-content: center;
 }
+
 .category-buttons li button {
     font-weight: 500;
     background-color: #f5f4fa;
@@ -205,17 +217,12 @@ body li {
 /* main-index*/
 
 .heading {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     background-color: #2f303a;
     align-items: center;
     text-align: center;
-    padding: 106px 252px;
+    padding-bottom: 200px;
 }
 .heading h1 {
     margin-bottom: 40px;
@@ -226,8 +233,11 @@ body li {
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
+    padding: 106px 252px 0px 252px;
 }
-
+.jobs {
+    margin-top: -94px;
+}
 .service-button {
     font-weight: 700;
     font-size: 16px;
