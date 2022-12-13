@@ -1,4 +1,4 @@
-/* Globalne  juz naprawde nie mam pojęcia co jeszcze tu jest nie tak... Pozdrawiam*/
+/* Globalne  Sory że tyle poprawek tu było */
 h1,
 h2,
 h3,
@@ -122,12 +122,11 @@ body li {
     color: #ffffff;
     padding: 60px 0px;
 }
-.footer-content {
-    display: block;
-}
 
 .footer-wrapper address {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .address {
@@ -148,7 +147,7 @@ body li {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
-    padding-top: 9px;
+    width: fit-content;
 }
 
 .footer-contact:hover,
@@ -229,7 +228,7 @@ body li {
     padding-bottom: 200px;
 }
 .heading h1 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #ffffff;
     font-size: 44px;
     line-height: 1.36;
@@ -237,7 +236,7 @@ body li {
     text-align: center;
     font-weight: 900;
     text-transform: uppercase;
-    padding: 106px 252px 30px 252px;
+    padding: 106px 252px 0px 252px;
 }
 .jobs {
     margin-top: -94px;
